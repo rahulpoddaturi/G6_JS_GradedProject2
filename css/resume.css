@@ -1,0 +1,117 @@
+#searchNavigateSection {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.previousButton {
+    margin-left: 10%;
+    float: left;
+}
+
+.nextButton {
+    margin-right: 10%;
+    float: right;
+}
+
+#resumeSection {
+    margin: 5%;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#topSection {
+    display: flex;
+    background-color: #E1FBFF;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.topLeftColumn {
+    width: 85%;
+}
+
+.topRightColumn {
+    width: 15%;
+    text-align: left;
+    position: relative;
+}
+
+.verticalCenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.topRightColumn img {
+    width: 80%;
+    height: 80px;
+}
+
+#userName {
+    text-align: center;
+}
+
+#appliedForJob {
+    font-weight: bold;
+    text-align: center;
+}
+
+#bottomSection {
+    display: flex;
+    margin: 0;
+}
+
+.bottomLeftColumn {
+    width: 25%;
+    margin: 10px;
+}
+
+.bottomLeftInnerSection {
+    background-color: #FDDDE6;
+}
+
+.bottomRightColumn {
+    width: 75%;
+}
+
+.personalInfoSection,
+.technicalSkillsSection,
+.hobbiesSection {
+    width: 100%;
+}
+
+#personalInfoTable,
+#technicalSkillsTable,
+#hobbiesTable {
+    width: 100%;
+}
+
+.sectionHead {
+    width: 100%;
+}
+
+.sectionHead tr th div {
+    background-color: #A8A8A8;
+    margin: 5%;
+    text-align: left;
+}
+
+#personalInfoTableBody tr td,
+#technicalSkillsTableBody tr td,
+#hobbiesTableBody tr td {
+    padding-right: 5%;
+    text-align: right;
+}
+
+.noBulletsList {
+    list-style-type: none;
+}
+
+.noResumeSection{
+    text-align: center;
+}

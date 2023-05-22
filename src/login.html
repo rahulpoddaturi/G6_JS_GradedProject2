@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/Registration.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+
+<body id="login">
+    <div class="container">
+        <div class="wrapper">
+            <div class="title"><span>Login </span></div>
+            <form action="post">
+                <div class="row">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="uname" placeholder="User Name" required>
+                </div>
+                <div class="row">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="pwd" placeholder="Password" required>
+                </div>
+                <div class="row button">
+                    <input type="submit" value="Submit" onclick="checkLoginData(event)">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+   
+</body>
+
+</html>

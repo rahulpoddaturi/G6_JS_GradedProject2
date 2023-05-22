@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Viewer</title>
+    <link rel="stylesheet" type="text/css" href="../css/resume.css">
+</head>
+
+<body>
+    <section id="searchNavigateSection">
+        <button class='previousButton'>Previous</button>
+        <input type="text" placeholder="Search for keywords to filter the results" autofocus class="searchTextBox">
+        <button class='nextButton'>Next</button>
+    </section>
+    <section id="resumeSection">
+        <article id="topSection">
+            <div class="topLeftColumn">
+                <br>
+                <h2 id="userName"></h2>
+                <p id="appliedForJob"></p>
+            </div>
+            <div class="topRightColumn">
+                <div class="verticalCenter">
+                    <img src="/Resources/img/profile.jpg" alt="Profile-Picture">
+                </div>
+            </div>
+        </article>
+        <article id="bottomSection">
+            <div class="bottomLeftColumn">
+                <div class="bottomLeftInnerSection">
+                    <div class="personalInfoSection">
+                        <table id="personalInfoTable">
+                            <thead class="sectionHead">
+                                <tr>
+                                    <th>
+                                        <div>Personal Information</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="personalInfoTableBody">
+                                <tr>
+                                    <td id="mobileNumber"></td>
+                                </tr>
+                                <tr>
+                                    <td id="emailId"></td>
+                                </tr>
+                                <tr>
+                                    <td><a id="linkedIn" href=''></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="technicalSkillsSection">
+                        <table id="technicalSkillsTable">
+                            <thead class="sectionHead">
+                                <tr>
+                                    <th>
+                                        <div>Technical Skills</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="technicalSkillsTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="hobbiesSection">
+                        <table id="hobbiesTable">
+                            <thead class="sectionHead">
+                                <tr>
+                                    <th>
+                                        <div>Hobbies</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="hobbiesTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomRightColumn">
+                <p id="bottomRightColumnContent"></p>
+            </div>
+        </article>
+    </section>
+
+    <script src="resume.js">
+       
+    </script>
+</body>
+
+</html>
